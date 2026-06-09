@@ -22,5 +22,302 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-pixelify);
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    #1a0b2e 0%,
+    #2d1b69 50%,
+    #11071f 100%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.star {
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.floating-star {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes comet {
+  from {
+    transform: translateX(-100px)
+               translateY(-100px);
+  }
+
+  to {
+    transform: translateX(500px)
+               translateY(300px);
+  }
+}
+
+.comet {
+  animation: comet 8s linear infinite;
+}
+
+.pixel-hero {
+  font-family: var(--font-pressstart);
+}
+
+.pixel-title {
+  font-family: var(--font-silkscreen);
+}
+
+.pixel-badge {
+  font-family: var(--font-pixelify);
+}
+
+.pixel-text {
+  font-family: var(--font-pixelify);
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(2px, -2px);
+  }
+
+  60% {
+    transform: translate(-1px, 1px);
+  }
+
+  80% {
+    transform: translate(1px, -1px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.glitch {
+  animation: glitch 2s infinite;
+}
+
+.pixel-badge {
+  background: #f8f8f8;
+  color: #4c1d95;
+
+  padding: 14px 28px;
+
+  border-radius: 18px;
+
+  font-family: var(--font-pixelify);
+
+  box-shadow:
+    0 4px 10px rgba(0,0,0,.15);
+
+  transition: .3s;
+}
+
+.pixel-badge:hover {
+  transform: translateY(-3px);
+}
+
+.pixel-bubble{
+  position: relative;
+
+  padding: 14px 24px;
+
+  background: #f8f8f8;
+  color: #4c1d95;
+
+  border: 4px solid #000;
+
+  font-family: var(--font-pixelify);
+
+  box-shadow:
+    4px 0 #000,
+    -4px 0 #000,
+    0 4px #000,
+    0 -4px #000;
+}
+
+.pixel-tag{
+  background:#f8f8f8;
+  color:#4c1d95;
+
+  padding:12px 22px;
+
+  border:2px solid #8b5cf6;
+  border-radius:16px;
+
+  transition:.3s;
+}
+
+.pixel-tag:hover{
+  transform:translateY(-4px);
+  box-shadow:0 0 20px #c084fc;
+}
+
+@keyframes shootingStar {
+  0% {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-400px,200px);
+    opacity: 0;
+  }
+}
+
+.shooting-star{
+  animation: shootingStar 4s linear infinite;
+}
+
+@keyframes meteor {
+  0% {
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-400px) translateY(250px);
+    opacity: 0;
+  }
+}
+
+.meteor-project {
+  animation: meteor 6s linear infinite;
+}
+
+@keyframes float1 {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float2 {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(20px); }
+}
+
+@keyframes rotateSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.float1 {
+  animation: float1 4s ease-in-out infinite;
+}
+
+.float2 {
+  animation: float2 6s ease-in-out infinite;
+}
+
+.rotate-slow {
+  animation: rotateSlow 20s linear infinite;
+}
+
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-slow {
+  animation: rotateSlow 15s linear infinite;
+}
+
+@keyframes float1 {
+  0%,100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.float1 {
+  animation: float1 3s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0%,100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.float2 {
+  animation: float2 5s ease-in-out infinite;
+}
+
+.float1{
+  animation: float1 4s ease-in-out infinite;
+}
+
+@keyframes float1{
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+}
+/* Animasi gambar bergerak dari kiri ke kanan melewati seluruh tulisan Contact Me */
+@keyframes slideAcrossContact {
+  0% {
+    transform: translateX(-150px);
+  }
+  50% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(-150px);
+  }
+}
+
+.animate-float-about {
+  animation: slideAcrossContact 6s ease-in-out infinite;
 }
