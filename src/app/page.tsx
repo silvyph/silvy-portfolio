@@ -210,20 +210,20 @@ export default function Home() {
 
         <div className="flex gap-10 flex-wrap justify-center mb-8">
 
-          <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-xl">
-            💻 Informatics Engineering
+          <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-2xl">
+            Informatics Engineering
+          </span>
+
+          <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-2xl">
+            Backend Developer
+          </span>
+
+          <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-2xl">
+            Junior Web Developer
           </span>
 
           <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-xl">
-            📊 Data Analyst
-          </span>
-
-          <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-xl">
-            ⚙️ Backend Developer
-          </span>
-
-          <span className="pixel-badge bg-white text-purple-900 px-4 py-2 rounded-xl">
-            🤖 AI Enthusiast
+            AI Enthusiast
           </span>
 
         </div>
