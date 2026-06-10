@@ -257,7 +257,9 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-purple-200 max-w-2xl">
-          Transforming ideas into scalable applications, data-driven insights, and AI-powered experiences.
+          Building scalable web applications, 
+          robust backend systems, 
+          and AI-powered solutions.
         </p>
 
       </section>
@@ -278,14 +280,11 @@ export default function Home() {
         </h2>
 
         <p className="pixel-text text-lg text-purple-200 leading-8">
-          Backend Developer, Data Analyst, and AI Enthusiast
-          with hands-on experience in building Laravel applications,
-          RESTful APIs, payment gateway integrations, and
-          AI-powered systems.
-
-          Skilled in PHP, Go, Python, SQL, Data Analytics,
-          Machine Learning, and LLM technologies including
-          Gemini API and OpenAI API.
+          Backend Developer, Junior Web Developer, and AI Enthusiast with hands-on experience in building web applications,
+          RESTful APIs, payment gateway integrations, machine learning solutions, and AI-powered systems. 
+          
+          Skilled in PHP, Laravel, Python, SQL, JavaScript, Data Analytics, 
+          Machine Learning, and LLM technologies including Gemini API and OpenAI API.
         </p>
 
         <Image
