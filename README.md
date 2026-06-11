@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal Portfolio Website
 
-## Getting Started
+A modern and responsive developer portfolio website built to showcase my software development, machine learning, and data analytics projects.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Portfolio Website:
+https://silvy-portfolio.vercel.app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio serves as a central hub for my technical projects, skills, certifications, and professional experiences.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website highlights:
 
-## Learn More
+* Software Development Projects
+* Machine Learning Projects
+* Data Analytics Dashboards
+* Technical Skills
+* Certifications
+* Contact Information
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Responsive Design
+* Project Showcase
+* Skills Section
+* Certifications Section
+* Contact Form
+* Modern UI/UX
+* Mobile-Friendly Layout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🖼️ Screenshots
 
-## Deploy on Vercel
+### Homepage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Homepage](homepage.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Projects Section
+
+![Homepage](project.png)
+
+### Skills Section
+
+![Homepage](skill.png)
+
+## 🛠️ Tech Stack
+
+Frontend:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+Deployment:
+
+* Vercel
+
+Tools:
+
+* Git
+* GitHub
+
+## 📂 Featured Projects
+
+### 🛒 AI-Powered E-Commerce Platform
+
+Laravel-based e-commerce application with Xendit payment integration, Google OAuth authentication, REST APIs, and Gemini AI chatbot.
+
+### 🤖 KNN Internship Recommendation System
+
+Machine learning recommendation system using Flask API and K-Nearest Neighbor (KNN) integration with Laravel.
+
+### 🚲 London Bike Sharing Forecasting
+
+Demand forecasting project using machine learning, feature engineering, and Tableau dashboard visualization.
+
+## 🎯 Purpose
+
+The goal of this portfolio is to demonstrate my capabilities in:
+
+* Backend Development
+* API Integration
+* Machine Learning
+* Data Analytics
+* Web Application Development
+
+## 👩‍💻 About Me
+
+Silvy Putri Hanafi
+
+Informatics Engineering Graduate with interests in Backend Development, Artificial Intelligence, Machine Learning, and Data Analytics.
+
+LinkedIn:
+https://linkedin.com/in/silvyputrihanafi
+
+Portfolio:
+https://silvy-portfolio.vercel.app
